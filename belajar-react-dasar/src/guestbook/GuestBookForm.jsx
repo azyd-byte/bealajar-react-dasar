@@ -8,7 +8,7 @@ export default function GuestBookForm({ ref, name, setName }) {
         name="name"
         value={name}
         onChange={(e) => setName(e.target.value)}
-      />{" "}
+      />
       <br />
     </>
   );
